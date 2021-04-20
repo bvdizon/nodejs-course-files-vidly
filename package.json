@@ -1,0 +1,17 @@
+{
+  "name": "bvd-vidly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Dizon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "joi-objectid": "^3.0.1",
+    "mongoose": "^5.12.5"
+  }
+}
