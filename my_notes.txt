@@ -1,0 +1,15 @@
+Learn more about npm packages:
+    * lodash
+    * bcrypt
+    * jsonwebtoken
+
+    * config --- store configuration in an env variables
+        1. install the package and require in applicable packages
+            ex: auth.js, index.js
+        2. mkdir config
+        3. touch custom-environment-variables.json
+        4. touch default.json 
+        5. use "config.get()" to get the value
+        6. "export" for mac, "set" for windows
+            ex: set vidly_jwtPrivateKey=mySecureKey
+            
